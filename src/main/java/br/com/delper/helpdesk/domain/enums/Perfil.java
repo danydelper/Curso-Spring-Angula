@@ -1,7 +1,9 @@
 package br.com.delper.helpdesk.domain.enums;
 
 public enum Perfil {
-    ADMIN(0, "ROLE_ADMIN"), MASTER(1, "ROLE_MASTER"), USUARIO(2,"ROLE_USUARIO");
+    ADMIN(0, "ROLE_ADMIN"), CLIENTE(1, "ROLE_CLIENTE"), TECNICO(2,"ROLE_TECNICO");
+
+    //TODO: X1- Criar perfil Admin, Master, Usuario -> pensar perfil para pessoas tb como Cliente, Fornecedor,Amigo
 
     private Integer codigo;
     private String descricao;
